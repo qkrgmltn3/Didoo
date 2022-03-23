@@ -1,0 +1,59 @@
+@charset "uft-8";
+
+.sub>li>a {
+	font-weight: 500;
+}
+
+.contact {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	/* overflow: hidden; */
+}
+
+.contact>div:nth-child(1) {
+	width: 100%;
+	height: 50%;
+	position: relative;
+	top: 0;
+	background-color: #383838;
+}
+
+.contact>div>h1 {
+	width: 100%;
+	color: #fff;
+	font-size: 2.4vw;
+	text-align: center;
+	font-weight: 600;
+	position: absolute;
+	bottom: 20px;
+}
+
+.contact>div:nth-child(2) {
+	width: 100%;
+	height: 50%;
+	position: relative;
+	top: 0;
+	background-color: #fff;
+}
+
+.contact>div>h2 {
+	width: 100%;
+	color: #fff;
+	font-size: 1.3vw;
+	text-align: center;
+	font-weight: normal;
+	color: inherit;
+	position: absolute;
+	top: 20px;
+}
+
+.contact>p {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	font-size: 1.1vw;
+	font-style: italic;
+	font-weight: 500;
+}
